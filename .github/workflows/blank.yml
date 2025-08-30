@@ -34,7 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-                - name: Run a multi-line script
+
+         - name: Run a multi-line script
         run: |
-          echo Bom dia!
-          echo Ótimo sabádo!
+          echo Add other actions to build,
+          echo test, and deploy your project.
