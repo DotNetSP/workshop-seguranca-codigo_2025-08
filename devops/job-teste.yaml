@@ -11,4 +11,13 @@ spec:
         env:
         - name: EndpointNotificacao
           value: "https://baconipsum.com/api/?type=all-meat"
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "50m"
+          limits:
+            memory: "128Mi"
+            cpu: "100m"
+        securityContext:
+          allowPrivilegeEscalation: false
       restartPolicy: Never
