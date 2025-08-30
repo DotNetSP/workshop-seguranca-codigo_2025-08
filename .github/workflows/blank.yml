@@ -42,9 +42,6 @@ jobs:
           echo ''
           gitleaks --help
 
-      - name: Test
-        run: Meu nome é Matheus
-
       - name: Criar diretorio results
         run: mkdir results
 
